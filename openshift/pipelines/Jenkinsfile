@@ -89,15 +89,6 @@ pipeline {
         }
       }
     }
-  stages {
-    stage('final') {
-        steps {
-            echo {
-                    'Finalizando a pipeline'
-                    }
-                }
-            }
-        }
   }
 }
 
