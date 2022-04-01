@@ -93,7 +93,7 @@ pipeline {
     stage('final') {
         steps {
             echo {
-                    "Finalizando a pipeline"
+                    'Finalizando a pipeline'
                     }
                 }
             }
